@@ -8,7 +8,7 @@ This Laravel package provides a simple artisan command to quickly generate trait
 You can install the package via composer:
 
 ```bash
-composer require shaka/laravel-trait-generator
+composer require shaka/laravel-trait-generator:dev-stable
 ```
 
 If you are not using Laravel's package auto-discovery, add the service provider to the `providers` array in `config/app.php`:
