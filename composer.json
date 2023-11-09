@@ -1,0 +1,22 @@
+{
+    "name": "shaka/laravel-trait-generator",
+    "description": "A Laravel package to generate traits",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shaka\\LaravelTraitGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shaka\\LaravelTraitGenerator\\LaravelTraitGeneratorServiceProvider"
+            ]
+        }
+    }
+}
