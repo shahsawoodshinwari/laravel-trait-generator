@@ -4,7 +4,7 @@ namespace Shaka\LaravelTraitGenerator\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
-class MakeTraitCommand extends GeneratorCommand
+class MakeTrait extends GeneratorCommand
 {
     protected $name = 'make:trait';
     protected $description = 'Create a new trait';
