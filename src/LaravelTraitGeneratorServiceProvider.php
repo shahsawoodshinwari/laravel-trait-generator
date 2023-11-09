@@ -3,14 +3,14 @@
 namespace Shaka\LaravelTraitGenerator;
 
 use Illuminate\Support\ServiceProvider;
-use Shaka\LaravelTraitGenerator\Console\MakeTraitCommand;
+use Shaka\LaravelTraitGenerator\Console\MakeTrait;
 
 class LaravelTraitGeneratorServiceProvider extends ServiceProvider
 {
     public function register()
     {
         $this->commands([
-            MakeTraitCommand::class,
+            MakeTrait::class,
         ]);
     }
 
