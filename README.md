@@ -42,8 +42,8 @@ This will publish the stub to `stubs/vendor/laravel-trait-generator/trait.stub`,
 
 ## Credits
 
-- [Shah Sawood](https://github.com/your-profile) (Package Author)
-- [ChatGPT Pro](https://openai.com/chatgpt-pro) (Package Creator)
+- [Shah Sawood](https://github.com/shahsawoodshinwari) (Package Author)
+- [ChatGPT](https://openai.com/chatgpt) (Package Creator)
 
 ## License
 
